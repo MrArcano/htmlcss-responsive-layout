@@ -13,6 +13,11 @@
   margin: 0 auto;
 }
 
+section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /************************************************
     UTILITY
  ************************************************/
@@ -53,10 +58,7 @@ main{
   padding-top: 80px;
 }
 
-section.info-app{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+/* section info-app */
 
 .row{
   flex-wrap: wrap;
@@ -64,20 +66,39 @@ section.info-app{
 
 .card{
   width: 100%;
-  min-height: 400px;
+  min-height: 400px; /* debug */
   border-radius: 20px;
   margin-bottom: 24px;
   padding: 24px;
   background-color: #b5ddff;
 }
 
+.card:last-child{
+  margin-bottom: 0;
+}
+
 .card.flex-box{
   flex-wrap: wrap;
 }
 
-.card-sx,
-.card-dx{
+.info-app .card-sx,
+.info-app .card-dx{
   width: 100%;
+}
+
+/* section planing */
+section.planing{
+  background-color: #9792e4;
+}
+
+.planing .row{
+  /* max-width: 500px;
+  margin: 0 auto; */
+  flex-direction: column;
+}
+
+.planing .card{
+  background-color: white;
 }
 
 /************************************************
@@ -104,6 +125,8 @@ section.info-app{
     max-width: calc(100% / 3 - 12px);
   }
   /* section planing */
+  /* non cambia */
+
   /* section partner */
   /* section benefit*/
   /* section abous us*/
@@ -116,9 +139,23 @@ section.info-app{
   body{
     background-color: red;
   }
+  /* HEADER */
+  /* --------------------------------------------------- */
+  /* change nav bar */
+  /* --------------------------------------------------- */
 
-  .card-sx,
-  .card-dx{
+  /* MAIN */
+  /* --------------------------------------------------- */
+  /* section info-app */
+  .info-app .card-sx,
+  .info-app .card-dx{
     width: 50%;
   }
+  /* section planing */
+
+  /* section partner */
+  /* section benefit*/
+  /* section abous us*/
+  /* section started*/
+  /* --------------------------------------------------- */
 }
