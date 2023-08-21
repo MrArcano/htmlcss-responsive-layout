@@ -62,6 +62,72 @@ header .container{
   padding: 20px 10px;
 }
 
+/* hamburger menu */
+.header-right{
+  position: relative;
+}
+/* checkbox position */
+#ham-check{
+  position: absolute;
+  top: -14px;
+  right: -2px;
+  z-index: 2;
+  opacity: 0.2;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+/* hamburger menu position */
+/* middle line */
+.hamburger-menu{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  width: 24px;
+  height: 4px;
+  right: 2px;
+}
+
+/* top line  */
+.hamburger-menu::before{
+  content: "";
+  position: absolute;
+  top: -8px;
+  background-color: red;
+  width: 24px;
+  height: 4px;
+}
+
+/* bottom line */
+.hamburger-menu::after{
+  content: "";
+  position: absolute;
+  top: 8px;
+  background-color: greenyellow;
+  width: 24px;
+  height: 4px;
+}
+
+
+
+.header-right ul{
+  list-style: none;
+
+  /* opacity: 0; */
+  /* flex-direction: column; */
+}
+
+.header-right li{
+  list-style: none;
+}
+
+.header-right nav a{
+  text-decoration: none;
+  color: white;
+}
+
 /************************************************
     MAIN
  ************************************************/
