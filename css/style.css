@@ -117,10 +117,15 @@ section.planing{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-bottom: 16px;
+
 
   background-color: wheat; /* debug */
 }
+
+.partner .card .text{
+  margin: 16px;
+}
+
 
 /************************************************
    RESPONSIVE
@@ -153,9 +158,6 @@ section.planing{
     flex-direction: row;
   }
 
-  .partner .card .image{
-    margin-right: 16px;
-  }
   /* section benefit*/
   /* section abous us*/
   /* section started*/
