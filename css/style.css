@@ -41,6 +41,7 @@ section{
     HEADER
  ************************************************/
 header{
+  z-index: 999;
   position: fixed;
   left: 0;
   right: 0;
@@ -86,7 +87,8 @@ main{
 }
 
 /* section planing */
-section.planing{
+section.planing,
+section.benefit{
   background-color: #9792e4;
 }
 
@@ -98,7 +100,8 @@ section.planing{
   padding: 24px;
 }
 
-.planing .card{
+.planing .card,
+.benefit .card{
   background-color: white;
 }
 
@@ -124,6 +127,11 @@ section.planing{
 
 .partner .card .text{
   margin: 16px;
+}
+
+/* section benefit */
+.benefit .card{
+  margin-bottom: 24px;
 }
 
 
@@ -159,6 +167,13 @@ section.planing{
   }
 
   /* section benefit*/
+  .benefit .row{
+    justify-content: space-between;
+  }
+
+  .benefit .card{
+    width: calc( 50% - 12px);
+  }
   /* section abous us*/
   /* section started*/
   /* --------------------------------------------------- */
@@ -194,7 +209,13 @@ section.planing{
   }
 
   /* section partner */
+  /* non cambia */
+
   /* section benefit*/
+  .benefit .card{
+    width: calc( 100% / 3 - 12px);
+    margin-bottom: 24px;
+  }
   /* section abous us*/
   /* section started*/
   /* --------------------------------------------------- */
