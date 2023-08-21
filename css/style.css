@@ -94,8 +94,32 @@ section.planing{
   flex-direction: column;
 }
 
+.planing-sx{
+  padding: 24px;
+}
+
 .planing .card{
   background-color: white;
+}
+
+/* section partner */
+
+.partner .card{
+  margin-bottom: 24px;
+  background-color: #9792e4;
+  color: white;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner .card .image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+
+  background-color: wheat; /* debug */
 }
 
 /************************************************
@@ -125,6 +149,13 @@ section.planing{
   /* non cambia */
 
   /* section partner */
+  .partner .card{
+    flex-direction: row;
+  }
+
+  .partner .card .image{
+    margin-right: 16px;
+  }
   /* section benefit*/
   /* section abous us*/
   /* section started*/
