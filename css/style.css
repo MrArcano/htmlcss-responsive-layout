@@ -98,6 +98,8 @@ header .container{
   background-color: red;
   width: 24px;
   height: 4px;
+
+  transition: all  0.5s ease;
 }
 
 /* bottom line */
@@ -108,9 +110,26 @@ header .container{
   background-color: greenyellow;
   width: 24px;
   height: 4px;
+
+  transition: all  0.5s ease;
 }
 
+#ham-check:checked ~ .hamburger-menu{
+  background-color: #0084fd;
+  /* quando viene cliccato il colore della middle line, è uguale allo sfondo, per nasconderla */
+}
 
+#ham-check:checked ~ .hamburger-menu::after{
+  background-color: white;
+  top: 0;
+  transform: rotate(135deg);
+}
+
+#ham-check:checked ~ .hamburger-menu::before{
+  background-color: white;
+  top: 0;
+  transform: rotate(45deg);
+}
 
 .header-right ul{
   list-style: none;
