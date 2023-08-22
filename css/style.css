@@ -25,11 +25,16 @@ section{
   display: flex;
 }
 
-.card{
+.col{
   width: 100%;
+}
+
+
+.card{
   min-height: 400px; /* debug */
   border-radius: 20px;
   padding: 24px;
+  margin: 12px;
 }
 
 .bkg-color-light-purple{
@@ -60,11 +65,16 @@ header .container{
   height: 80px; 
   /* imposto una altezza fissa all'header per gestire meglio il fixed */
   padding: 20px 0px;
+
+}
+.header-left{
+  margin-left: 12px;
 }
 
 /* hamburger menu */
 .header-right{
   position: relative;
+  margin-right: 12px;
 }
 /* checkbox position */
 #ham-check{
@@ -188,7 +198,7 @@ main{
 }
 
 .info-app .card{
-  margin-bottom: 24px;
+  
   background-color: #b5ddff;
 }
 
@@ -208,7 +218,7 @@ main{
 }
 
 .planing-sx{
-  padding: 24px;
+  padding: 12px;
 }
 
 .planing .card,
@@ -239,11 +249,11 @@ main{
 }
 
 /* section benefit */
-.benefit .card{
-  margin-bottom: 24px;
-}
+
 
 /* section about-us */
+
+
 .about-us .row{
   flex-direction: column;
 }
@@ -291,13 +301,14 @@ main{
     justify-content: space-between;
   }
 
-  .info-app .card:first-child{
-    max-width: calc(100% / 3 * 2 - 12px);
+  .info-app .col:first-child{
+    max-width: calc(100% / 3 * 2);
   }
 
-  .info-app .card{
-    max-width: calc(100% / 3 - 12px);
+  .info-app .col{
+    max-width: calc(100% / 3);
   }
+
   /* section planing */
   /* non cambia */
 
@@ -311,8 +322,8 @@ main{
     justify-content: space-between;
   }
 
-  .benefit .card{
-    width: calc( 50% - 12px);
+  .benefit .col{
+    width: 50%
   }
   /* section abous us*/
   .about-us .row{
@@ -405,9 +416,8 @@ main{
   /* non cambia */
 
   /* section benefit*/
-  .benefit .card{
-    width: calc( 100% / 3 - 12px);
-    margin-bottom: 24px;
+  .benefit .col{
+    width: calc( 100% / 3);
   }
   /* section abous us*/
   /* non cambia */
