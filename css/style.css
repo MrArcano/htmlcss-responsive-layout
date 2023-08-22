@@ -261,14 +261,11 @@ main{
 .about-sx,
 .about-dx{
   width: 100%;
-  height: 200px; /* debug */
 }
 
 /* section started */
 .started-text{
   max-width: 600px;
-
-  height: 200px; /* debug */
 }
 
 /************************************************

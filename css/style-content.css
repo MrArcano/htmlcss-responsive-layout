@@ -169,6 +169,21 @@ a.btn{
   background-color: #9792e4;
   padding: 8px 48px;
 }
+
+/* about-us */
+.about-us h1{
+  color: #9792e4;
+  font-size: 2rem;
+}
+
+.about-us h2{
+  color: #9792e4;
+}
+
+.about-us .btn{
+  background-color: #9792e4;
+}
+
 /************************************************
    RESPONSIVE
  ************************************************/
