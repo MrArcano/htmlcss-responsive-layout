@@ -1,6 +1,15 @@
 /************************************************
    GENERAL
  ************************************************/
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
 a.btn{
   text-decoration: none;
   color: white;
@@ -14,7 +23,7 @@ a.btn{
    MAIN
  ************************************************/
 
- /* info app */
+/* info app */
 .info-app h2{
   color: #0084fd;
   margin-bottom: 32px;
@@ -51,6 +60,48 @@ a.btn{
   font-size: 4rem;
 }
 
+/* planing */
+.planing-sx{
+  color: white;
+}
+
+.planing-sx .image{
+  text-align: center;
+}
+
+.planing-sx h1{
+  font-size: 2rem;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+.planing-dx{
+  text-align: center;
+}
+
+.planing-dx .card{
+  vertical-align:bottom;
+}
+
+.planing-dx h2{
+  margin: 16px 0;
+}
+
+.planing-dx p{
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.planing-dx .btn{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0; /* resetto il padding di default */
+  border-radius: 50%;
+  background-color: #9792e4;
+  color: black;
+}
+
 /************************************************
    RESPONSIVE
  ************************************************/
@@ -71,4 +122,17 @@ a.btn{
   .info-app .card-dx{
     text-align: center;
   }
+
+  /* planing */
+  .planing .row{
+    align-items: flex-end;
+  }
+
+  .planing-sx{
+    padding-right: 24px;
+  }
+  .planing-dx{
+    padding-left: 24px;
+  }
+  
 }
