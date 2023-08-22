@@ -117,11 +117,7 @@ a.btn{
   padding: 16px 0;
 }
 
-.partner .image{
-  overflow: hidden;
-}
-
-.partner .image img{
+.partner .image-circle img{
   height: 100%;
   object-fit: cover;
 }
@@ -184,6 +180,21 @@ a.btn{
   background-color: #9792e4;
 }
 
+.about-us .quote{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.about-us .about-dx .left-quote{
+  position: absolute;
+  top: -20px;
+  right: 0;
+  font-size: 10rem;
+
+  color: #9792e4;
+}
+
 /************************************************
    RESPONSIVE
  ************************************************/
@@ -199,6 +210,11 @@ a.btn{
   /* partner */
   .partner .card .text{
     width: calc(100% - 235px);
+  }
+
+  /* about-us */
+  .about-us .quote{
+    margin: 0 auto; /* sono confuso */
   }
 }
 
