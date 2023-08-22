@@ -140,6 +140,35 @@ a.btn{
 .partner .card h3{
   font-weight: bold;
 }
+
+/* benefit */
+.benefit h1{
+  color: white;
+  font-size: 2rem;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.benefit h2{
+  color: #9792e4;
+  padding: 16px 0;
+}
+
+.benefit span{
+  color: #9792e4;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.benefit p{
+  color: #5a6e7f;
+  padding-bottom: 16px;
+}
+
+.benefit .btn{
+  background-color: #9792e4;
+  padding: 8px 48px;
+}
 /************************************************
    RESPONSIVE
  ************************************************/
