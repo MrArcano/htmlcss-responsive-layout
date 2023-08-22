@@ -172,8 +172,13 @@ a.btn{
   font-size: 2rem;
 }
 
+.about-us p{
+  padding: 32px 0;
+}
+
 .about-us h2{
   color: #9792e4;
+  padding: 16px 0;
 }
 
 .about-us .btn{
