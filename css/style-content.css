@@ -227,10 +227,25 @@ a.btn{
   border-radius: 64px;
   margin: 32px 0;
 }
+
+.started a{
+  color: white;
+}
 /************************************************
    FOOTER
  ************************************************/
 
+footer{
+  text-align: center;
+}
+
+footer a{
+  color: #9792e4;
+}
+
+footer p:first-child{
+  padding-bottom: 48px;
+}
 
 
 /************************************************
