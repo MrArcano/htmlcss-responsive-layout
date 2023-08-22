@@ -125,7 +125,7 @@ header .container{
 #ham-check:checked ~ .hamburger-menu::after{
   background-color: white;
   top: 0;
-  transform: rotate(135deg);
+  transform: rotate(-45deg);
 }
 
 #ham-check:checked ~ .hamburger-menu::before{
