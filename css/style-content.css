@@ -1,3 +1,6 @@
+/************************************************
+   GENERAL
+ ************************************************/
 a.btn{
   text-decoration: none;
   color: white;
@@ -7,6 +10,11 @@ a.btn{
   display: inline-block;
 }
 
+/************************************************
+   MAIN
+ ************************************************/
+
+ /* info app */
 .info-app h2{
   color: #0084fd;
   margin-bottom: 32px;
@@ -22,7 +30,6 @@ a.btn{
   background-color: #0084fd;
   padding: 8px 48px;
   font-weight: bold;
-  /* min-width: 190px; */
 }
 
 .info-app .card-dx{
@@ -33,8 +40,35 @@ a.btn{
   width: 200px;
   position: relative;
   bottom: calc(-100% + 200px);
-  /* margin-bottom: -28px; */
 }
 
+.info-app .col:not(:first-child) {
+  text-align: center;
+}
 
+.info-app .icon{
+  color: #0084fd;
+  font-size: 4rem;
+}
 
+/************************************************
+   RESPONSIVE
+ ************************************************/
+
+/* TABLET */
+@media screen and (min-width: 768px){
+
+  /* info app */
+  .info-app .card-dx{
+    text-align: left;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1200px){
+
+  /* info app */
+  .info-app .card-dx{
+    text-align: center;
+  }
+}

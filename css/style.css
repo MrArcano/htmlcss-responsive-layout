@@ -207,7 +207,7 @@ main{
 }
 
 .info-app .card{
-  
+  height: calc(100% - 24px) ; /* fix */
   background-color: #b5ddff;
 }
 
