@@ -1,0 +1,40 @@
+a.btn{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.info-app h2{
+  color: #0084fd;
+  margin-bottom: 32px;
+}
+
+.info-app p{
+  color: #5a6e7f;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.info-app .btn{
+  background-color: #0084fd;
+  padding: 8px 48px;
+  font-weight: bold;
+  /* min-width: 190px; */
+}
+
+.info-app .card-dx{
+  text-align: center;
+}
+
+.info-app .card-dx img{
+  width: 200px;
+  position: relative;
+  bottom: calc(-100% + 200px);
+  /* margin-bottom: -28px; */
+}
+
+
+

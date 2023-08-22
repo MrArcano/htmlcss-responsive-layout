@@ -7,6 +7,15 @@
   box-sizing: border-box;
 }
 
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
 .container{
   max-width: 1200px;
   width: 90%;
@@ -31,7 +40,7 @@ section{
 
 
 .card{
-  min-height: 400px; /* debug */
+  /* min-height: 400px;  */
   border-radius: 20px;
   padding: 24px;
   margin: 12px;
