@@ -289,9 +289,10 @@ main{
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-  body{
-    /* background-color: yellow; */
-  }
+  /* body{
+    background-color: yellow;
+  } */
+
   /* MAIN */
   /* --------------------------------------------------- */
   /* section info-app */
@@ -344,9 +345,9 @@ main{
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) {
-  body{
-    /* background-color: red; */
-  }
+  /* body{
+    background-color: red;
+  } */
   /* HEADER */
   /* --------------------------------------------------- */
   /* change nav bar */
