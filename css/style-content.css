@@ -102,6 +102,44 @@ a.btn{
   color: black;
 }
 
+/* partner */
+.partner{
+  text-align: center;
+}
+
+.partner h3{
+  font-weight: 400;
+}
+
+.partner h1{
+  color: #9792e4;
+  font-size: 2rem;
+  padding: 16px 0;
+}
+
+.partner .image{
+  overflow: hidden;
+}
+
+.partner .image img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.partner .card .text p::before{
+  content: '\201C';
+  font-size: 4rem;
+
+}
+
+.partner .card .text p::after{
+  content: '\201D';
+  font-size: 4rem;
+}
+
+.partner .card h3{
+  font-weight: bold;
+}
 /************************************************
    RESPONSIVE
  ************************************************/
@@ -112,6 +150,11 @@ a.btn{
   /* info app */
   .info-app .card-dx{
     text-align: left;
+  }
+
+  /* partner */
+  .partner .card .text{
+    width: calc(100% - 235px);
   }
 }
 
