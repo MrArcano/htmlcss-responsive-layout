@@ -122,12 +122,18 @@ a.btn{
   object-fit: cover;
 }
 
-.partner .card .text p span{
+
+
+/* .partner .card .text p span{
   font-size: 4rem;
   line-height: 0rem;
+} */
+
+.partner .card .text p{
+  line-height: 2rem; /* fix */
 }
 
-/* .partner .card .text p::before{
+.partner .card .text p::before{
   content: '\201C';
   font-size: 4rem;
   line-height: 0rem;
@@ -141,7 +147,7 @@ a.btn{
   line-height: 0rem;
   position: relative;
   top: 32px;
-} */
+}
 
 .partner .card h3{
   font-weight: bold;
