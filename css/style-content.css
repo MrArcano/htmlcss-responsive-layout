@@ -122,16 +122,26 @@ a.btn{
   object-fit: cover;
 }
 
-.partner .card .text p::before{
+.partner .card .text p span{
+  font-size: 4rem;
+  line-height: 0rem;
+}
+
+/* .partner .card .text p::before{
   content: '\201C';
   font-size: 4rem;
-
+  line-height: 0rem;
+  position: relative;
+  top: 32px;
 }
 
 .partner .card .text p::after{
   content: '\201D';
   font-size: 4rem;
-}
+  line-height: 0rem;
+  position: relative;
+  top: 32px;
+} */
 
 .partner .card h3{
   font-weight: bold;
